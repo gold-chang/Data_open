@@ -38,3 +38,6 @@ plot <- df_anomalized %>%
   plot_anomalies(time_recomposed = TRUE, ncol=3, alpha_dots = 0.05) + ggtitle("alpha = 0.05")
 
 plot
+
+a <- c(1,2,3)
+
