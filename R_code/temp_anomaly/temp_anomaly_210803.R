@@ -55,6 +55,15 @@ plot_1
 plot_2
 
 
+# 계절성, 추세 확인(그룹핑 해제 해야함)
+plot_3 <- df_anomalized_fix %>%
+  ungroup(spce_id) %>%
+  filter(spce_id == 'TG_0001094') %>%
+  plot_anomaly_decomposition()
+
+plot_3
+
+
 # 이상치 필터링
 df_anomalized_f1 <- df_anomalized_fix %>%
   filter(anomaly == "Yes") %>%
