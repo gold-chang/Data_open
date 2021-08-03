@@ -24,7 +24,7 @@ df <- as_tbl_time(df, index = reg_dt)
 df <- df %>% group_by(spce_id)
 
   
-# anomalized 
+# 이상치 계산  
 df_anomalized <- df %>%
   time_decompose(tag_value, merge=TRUE) %>%
   anomalize(remainder,alpha = 0.05, max_anoms = 0.2) %>%
@@ -33,8 +33,17 @@ df_anomalized <- df %>%
 df_anomalized %>% glimpse()
 
 
-# plot 
+# 시각화
 plot <- df_anomalized %>% 
   plot_anomalies(time_recomposed = TRUE, ncol=3, alpha_dots = 0.05) + ggtitle("alpha = 0.05")
 
 plot
+
+
+# 이상치 필터링
+df_anomalized_f1 <- df_anomalized %>%
+  filter(anomaly == "Yes") %>%
+  arrange(desc(reg_dt))
+  
+df_anomalized_f1
+
