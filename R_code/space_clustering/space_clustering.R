@@ -6,3 +6,12 @@ library(tidyverse)
 library(cluster)
 library(factoextra)
 library(gridExtra)
+
+
+# 경로 설정
+getwd()
+setwd("/cloud/project/R_code/space_clustering")
+
+# 데이터 불러오기
+raw_df <- read.csv2(file="temp_tag_temp_sample_210803.csv", sep=",")
+str(raw_df)
