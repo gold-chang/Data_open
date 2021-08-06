@@ -12,7 +12,7 @@
 
 # 02. 공간(space) 그룹화(Clustering) / ver. 210806
 - 활용 패키지 : library(cluster)
-- 알로리즘 정리 : 공간에서 발생하는 민원(VOC)수를 변수로 비슷한 공간들을 그룹화합 (K-means 활용)
+- 알로리즘 정리 : 공간에서 발생하는 민원(VOC)수 및 를 변수로 비슷한 공간들을 그룹화합 (K-means 활용)
 - 활용 : 비슷한 공간을 그룹화 하여 클러스터별 Pain Point 발굴 및 해결 방안 마련
 - 샘플 코드 경로 : Data_open/R_code/space_clustering/
 ![plot_zoom_png (1)](https://user-images.githubusercontent.com/88355776/128438053-538a2b2a-ab37-4a95-bd81-f7c68bbbcfee.png)
