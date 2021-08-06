@@ -7,6 +7,9 @@
 ![1](https://user-images.githubusercontent.com/88355776/127962626-465589d8-648c-4d61-ab40-6566ffc063f1.PNG)
 
 
+
+
+
 @ 02. 공간(space) 그룹화(Clustering) / ver. 210806
 - 활용 패키지 : library(cluster)
 - 알로리즘 정리 : 공간에서 발생하는 민원(VOC)수를 변수로 비슷한 공간들을 그룹화합 (K-means 활용)
