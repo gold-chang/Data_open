@@ -18,7 +18,7 @@
 
 
 
-# 03.공간(space) 그룹화(Clustering) / ver. 210805
+# 03.유사 공간(space) 그룹화(Clustering) / ver. 210805
 - 활용 패키지 : library(cluster)
 - 알로리즘 정리 : 공간에서 발생하는 민원(VOC)수 및 종류를 변수로 비슷한 공간들을 그룹화합 (K-means 활용)
 - 활용 : 비슷한 공간을 그룹화 하여 클러스터별 Pain Point 발굴 및 해결 방안 마련
