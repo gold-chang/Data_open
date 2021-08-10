@@ -10,9 +10,9 @@ library(tibbletime)
 library(anomalize)
 
 
-# url 나누기 ,인증키는 비공개 처리함
+# url 나누기 ,인증키는 비공개 처리
 url_1_1 <- "http://apis.data.go.kr/1611000/BldEngyService/getBeElctyUsgInfo?"
-url_1_2 <- "***"
+url_1_2 <- "serviceKey=***"
 url_1_3 <- "numOfRows=10&pageNo=1&"
 url_1_4 <- "sigunguCd=11680&bjdongCd=10300&bun=0012&ji=0000&useYm=20"
 
