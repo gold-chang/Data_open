@@ -13,7 +13,10 @@
 - 알고리즘 정리 : 시계열 데이터의 계절성(season)과 트렌드(trend)를 제외한 값(remainder)에서 이상치를 탐지
 - 활용 : 공공데이터 포탈의 건물 에너지 사용량(전기,가스) 데이터 활용, 에너지 사용 이상치를 탐지 (평소보다 적게/많게 사용한 건물)
 - 샘플 코드 경로 : Data_open/R_code/energy_anomaly/
+- 샘플 Power BI 대시보드 : https://app.powerbi.com/view?r=eyJrIjoiYjFiYWI1ZDgtZDVjYy00MmM4LTg1ZjEtNmJiZjIwMTZhZTAyIiwidCI6ImUwYjU5NTVmLTFiZGItNGNlMy1hNGUyLTMzZTM4MjdkMjc2NCJ9
 ![plot_zoom_png (2)](https://user-images.githubusercontent.com/88355776/128792503-7d7ce5fb-7447-424b-9435-412d36cc2772.png)
+![캡처](https://user-images.githubusercontent.com/88355776/128814986-354cef71-a18f-40b5-8bb0-4fafcc856095.PNG)
+
 
 
 
