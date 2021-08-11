@@ -4,7 +4,7 @@
 # 참고2 : https://magician-of-c.tistory.com/39?category=250800
 
 library(XML)
-library(tidyverse)
+library(dplyr)
 
 
 # 서울 코로나 확진자 정보 가져오기
@@ -20,7 +20,7 @@ df3 <- xmlToDataFrame(url_3)
 
 df <- rbind(df1, df2, df3)
 df <- df %>%
-  drop_na(CORONA19_ID) %>%
-  select(-1, -2, -3)
+  filter(!is.na(CORONA19_ID)) %>%
+  select(-1,-2,-3)
 
 head(df)
