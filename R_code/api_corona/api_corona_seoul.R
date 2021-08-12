@@ -7,11 +7,11 @@ library(XML)
 library(dplyr)
 
 
-# 서울 코로나 확진자 정보 가져오기
+# 서울 코로나 확진자 정보 가져오기, 인증키는 "***" 처리
 # 최근 1~1000건 (1회 최대 조회가능 1,000건)
-url_1 <- "http://openapi.seoul.go.kr:8088/576d424f64676f6c38395a43465944/xml/Corona19Status/1/1000/"
-url_2 <- "http://openapi.seoul.go.kr:8088/576d424f64676f6c38395a43465944/xml/Corona19Status/1001/2000/"
-url_3 <- "http://openapi.seoul.go.kr:8088/576d424f64676f6c38395a43465944/xml/Corona19Status/2001/3000/"
+url_1 <- "http://openapi.seoul.go.kr:8088/***/xml/Corona19Status/1/1000/"
+url_2 <- "http://openapi.seoul.go.kr:8088/***/xml/Corona19Status/1001/2000/"
+url_3 <- "http://openapi.seoul.go.kr:8088/***/xml/Corona19Status/2001/3000/"
 
 # DataFrame 로 변환 및 전처리
 df1 <- xmlToDataFrame(url_1)
