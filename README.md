@@ -35,3 +35,12 @@
 # 05.Caret 패키지 활용 / ver.210806
 - 샘플링(createDataPartition), 파라미터 설정(trainControl), 혼동행렬 표현(confusionMatrix) 등을 편리하게 사용할수 있도록 함
 - 샘플 코드 경로 : Data_open/R_code/test_caret
+
+
+# 06.T-test 샘플 / ver.210812
+- 활용 패키지 : library(MASS)
+- 활용 : 7월 평균 DAU 3317, 8월 평균 DAU 3006 --> 두달의 평균 차이가 있다고 할 수 있을까?
+- 샘플 코드 경로 : Data_open/R_code/test_t.test/
+
+
+
