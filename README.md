@@ -34,6 +34,7 @@
 - 활용 : 시청율 높은 방송 및 타겟을 시각화, TV광고에 활용
 - 샘플 코드 경로 : -
 - 샘플 Power BI 대시보드 : https://app.powerbi.com/view?r=eyJrIjoiZTFhMWZkY2ItODQ5MS00NDc0LThiMWMtOGU5MDI3MzFhYTY2IiwidCI6ImUwYjU5NTVmLTFiZGItNGNlMy1hNGUyLTMzZTM4MjdkMjc2NCJ9&pageName=ReportSectiond21d7a6a705635ef6092
+- https://app.powerbi.com/view?r=eyJrIjoiNGNmNDY1NjctMjAxZS00YzYwLTlkOGMtZTZmNjIzZDcxYmQzIiwidCI6ImUwYjU5NTVmLTFiZGItNGNlMy1hNGUyLTMzZTM4MjdkMjc2NCJ9&pageName=ReportSectionc3a5787cac921bf5a527
 ![11111](https://user-images.githubusercontent.com/88355776/129288535-5b96b886-d20c-43e3-b63d-28601cc50e71.PNG)
 
 
